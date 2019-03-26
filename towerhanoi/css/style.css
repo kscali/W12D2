@@ -1,0 +1,49 @@
+
+.hanoi {
+  display: flex; 
+  margin-right: 5px; 
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+
+ul {
+  width: 170px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  background: white; 
+  list-style-type: none;
+  border-bottom: 5px solid black;
+}
+.disc-3{
+  width: 150px;
+  height: 50px;
+}
+
+.disc-2 {
+  width: 100px;
+  height: 50px;
+}
+
+li {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.disc-1 {
+  
+  width: 50px;
+  height: 50px;
+}
+
+.disc {
+  background: green; 
+  border-radius: 50px;
+  margin-bottom: 5px; 
+}
