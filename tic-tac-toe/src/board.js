@@ -9,7 +9,7 @@ class Board {
     if (!Board.isValidPos(pos)) {
       throw new MoveError('Is not valid position!');
     }
-
+    // debugger;
     return (this.grid[pos[0]][pos[1]] === null);
   }
 
@@ -31,6 +31,7 @@ class Board {
 
   placeMark(pos, mark) {
     if (!this.isEmptyPos(pos)) {
+      alert("Invalid Move. Try again.")
       throw new MoveError('Is not an empty position!');
     }
 
