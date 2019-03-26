@@ -1,0 +1,33 @@
+/* PHASE 9: Forms */
+.input > label {
+  display: block;
+}
+
+.input {
+  margin: 10px;
+}
+
+.submit {
+  margin: 10px;
+}
+
+input {
+  display: block;
+  background: white;
+}
+
+
+.upper-part {
+  display: flex;
+  height: 60%;
+}
+
+form {
+  background: #eee;
+  margin-left: 15px;
+  width: 100%;
+}
+
+.thumbnail {
+  display: flex;
+}
